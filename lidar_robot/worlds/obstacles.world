@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="maze_world">
+    
+    <!-- Sun Light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- ==================== OUTER BOUNDARY WALLS ==================== -->
+    
+    <!-- North Wall -->
+    <model name="wall_north">
+      <pose>0 6 1 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>12.4 0.2 2.0</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>12.4 0.2 2.0</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- South Wall -->
+    <model name="wall_south">
+      <pose>0 -6 1 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>12.4 0.2 2.0</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>12.4 0.2 2.0</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- East Wall -->
+    <model name="wall_east">
+      <pose>6 0 1 0 0 1.5708</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>12.0 0.2 2.0</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>12.0 0.2 2.0</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- West Wall -->
+    <model name="wall_west">
+      <pose>-6 0 1 0 0 1.5708</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>12.0 0.2 2.0</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>12.0 0.2 2.0</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ==================== INTERIOR MAZE WALLS ==================== -->
+
+    <!-- Inner Wall 1 (North-West Vertical) -->
+    <model name="inner_wall_1">
+      <pose>-3 3 1 0 0 1.5708</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>4.0 0.2 2.0</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>4.0 0.2 2.0</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Inner Wall 2 (North-East Horizontal) -->
+    <model name="inner_wall_2">
+      <pose>3 2 1 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>4.0 0.2 2.0</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>4.0 0.2 2.0</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Inner Wall 3 (South-West Horizontal) -->
+    <model name="inner_wall_3">
+      <pose>-2 -3 1 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>5.0 0.2 2.0</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>5.0 0.2 2.0</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Inner Wall 4 (South-East Vertical) -->
+    <model name="inner_wall_4">
+      <pose>2 -3 1 0 0 1.5708</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>4.0 0.2 2.0</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>4.0 0.2 2.0</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Inner Wall 5 (Center Divider) -->
+    <model name="inner_wall_5">
+      <pose>-1 0.5 1 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>3.0 0.2 2.0</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>3.0 0.2 2.0</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000812] (lidar_robot) JobQueued: {'identifier': 'lidar_robot', 'dependencies': OrderedDict()}
+[0.000875] (lidar_robot) JobStarted: {'identifier': 'lidar_robot'}
+[0.099610] (-) TimerEvent: {}
+[0.199919] (-) TimerEvent: {}
+[0.300280] (-) TimerEvent: {}
+[0.400572] (-) TimerEvent: {}
+[0.501012] (-) TimerEvent: {}
+[0.601438] (-) TimerEvent: {}
+[0.701837] (-) TimerEvent: {}
+[0.802360] (-) TimerEvent: {}
+[0.902813] (-) TimerEvent: {}
+[1.003149] (-) TimerEvent: {}
+[1.103440] (-) TimerEvent: {}
+[1.203737] (-) TimerEvent: {}
+[1.304082] (-) TimerEvent: {}
+[1.404478] (-) TimerEvent: {}
+[1.504824] (-) TimerEvent: {}
+[1.605200] (-) TimerEvent: {}
+[1.705542] (-) TimerEvent: {}
+[1.805894] (-) TimerEvent: {}
+[1.906375] (-) TimerEvent: {}
+[1.980223] (lidar_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/gurshh/lidar_ws/src/build/lidar_robot/build', '--no-deps', 'symlink_data'], 'cwd': '/home/gurshh/lidar_ws/src/build/lidar_robot', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gurshh', 'GIT_ASKPASS': '/home/gurshh/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gurshh', 'TERM_PROGRAM_VERSION': '1.132.0', 'NVM_BIN': '/home/gurshh/.nvm/versions/node/v22.23.2/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3f621649-bbd8-4d36-9b23-cb31ac29d870.sock', 'NVM_INC': '/home/gurshh/.nvm/versions/node/v22.23.2/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/gurshh/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/gurshh/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/gurshh/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'NVM_DIR': '/home/gurshh/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gurshh', 'NAME': 'DESKTOP-2LKF4IH', 'WSL_INTEROP': '/run/WSL/74705_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '44350', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/gurshh/.vscode-server/bin/df53daabb18cd157bdb08c7f01c34df936cf12f4/bin/remote-cli:/home/gurshh/.local/bin:/home/gurshh/.nvm/versions/node/v22.23.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.14.7-hotspot/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2026a/runtime/win64:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/2024/Python:/mnt/c/Users/2024/Python/Library/mingw-w64/bin:/mnt/c/Users/2024/Python/Library/usr/bin:/mnt/c/Users/2024/Python/Library/bin:/mnt/c/Users/2024/Python/Scripts:/mnt/c/Users/2024/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/2024/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/2024/AppData/Roaming/npm:/mnt/c/Users/2024/AppData/Local/Programs/Ollama:/mnt/c/Users/2024/.ollama:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/2024/AppData/Local/Programs/Devin/bin:/snap/bin:/home/gurshh/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/gurshh/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e66e23f35c3a70b5.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/gurshh/.vscode-server/data/User/workspaceStorage/0cce9eff572c63db7cfc4ff7252a0aab/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-15550eb2a4.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/gurshh/lidar_ws/src/build/lidar_robot', 'TURTLEBOT3_MODEL': 'burger', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gurshh/lidar_ws/src/build/lidar_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gurshh/lidar_ws/src/install/lidar_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[2.006493] (-) TimerEvent: {}
+[2.106879] (-) TimerEvent: {}
+[2.207310] (-) TimerEvent: {}
+[2.307624] (-) TimerEvent: {}
+[2.407934] (-) TimerEvent: {}
+[2.429295] (lidar_robot) StdoutLine: {'line': b'running develop\n'}
+[2.508000] (-) TimerEvent: {}
+[2.608298] (-) TimerEvent: {}
+[2.708675] (-) TimerEvent: {}
+[2.789080] (lidar_robot) StdoutLine: {'line': b'running egg_info\n'}
+[2.789354] (lidar_robot) StdoutLine: {'line': b'creating lidar_robot.egg-info\n'}
+[2.808773] (-) TimerEvent: {}
+[2.809690] (lidar_robot) StdoutLine: {'line': b'writing lidar_robot.egg-info/PKG-INFO\n'}
+[2.810398] (lidar_robot) StdoutLine: {'line': b'writing dependency_links to lidar_robot.egg-info/dependency_links.txt\n'}
+[2.810736] (lidar_robot) StdoutLine: {'line': b'writing entry points to lidar_robot.egg-info/entry_points.txt\n'}
+[2.811183] (lidar_robot) StdoutLine: {'line': b'writing requirements to lidar_robot.egg-info/requires.txt\n'}
+[2.811594] (lidar_robot) StdoutLine: {'line': b'writing top-level names to lidar_robot.egg-info/top_level.txt\n'}
+[2.811796] (lidar_robot) StdoutLine: {'line': b"writing manifest file 'lidar_robot.egg-info/SOURCES.txt'\n"}
+[2.846914] (lidar_robot) StdoutLine: {'line': b"reading manifest file 'lidar_robot.egg-info/SOURCES.txt'\n"}
+[2.847542] (lidar_robot) StdoutLine: {'line': b"writing manifest file 'lidar_robot.egg-info/SOURCES.txt'\n"}
+[2.869321] (lidar_robot) StdoutLine: {'line': b'running build_ext\n'}
+[2.869520] (lidar_robot) StdoutLine: {'line': b'Creating /home/gurshh/lidar_ws/src/install/lidar_robot/lib/python3.10/site-packages/lidar-robot.egg-link (link to .)\n'}
+[2.870310] (lidar_robot) StdoutLine: {'line': b'Installing obstacle_avoidance script to /home/gurshh/lidar_ws/src/install/lidar_robot/lib/lidar_robot\n'}
+[2.871395] (lidar_robot) StdoutLine: {'line': b'\n'}
+[2.871676] (lidar_robot) StdoutLine: {'line': b'Installed /home/gurshh/lidar_ws/src/build/lidar_robot\n'}
+[2.871834] (lidar_robot) StdoutLine: {'line': b'running symlink_data\n'}
+[2.871980] (lidar_robot) StdoutLine: {'line': b'creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index\n'}
+[2.872172] (lidar_robot) StdoutLine: {'line': b'creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index/resource_index\n'}
+[2.872655] (lidar_robot) StdoutLine: {'line': b'creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index/resource_index/packages\n'}
+[2.873211] (lidar_robot) StdoutLine: {'line': b'symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/resource/lidar_robot -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index/resource_index/packages\n'}
+[2.873839] (lidar_robot) StdoutLine: {'line': b'symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/package.xml -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot\n'}
+[2.874130] (lidar_robot) StdoutLine: {'line': b'creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/launch\n'}
+[2.874670] (lidar_robot) StdoutLine: {'line': b'symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/launch/gazebo.launch.py -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/launch\n'}
+[2.875107] (lidar_robot) StdoutLine: {'line': b'creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/urdf\n'}
+[2.875610] (lidar_robot) StdoutLine: {'line': b'symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/urdf/robot.urdf.xacro -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/urdf\n'}
+[2.876200] (lidar_robot) StdoutLine: {'line': b'symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/urdf/robot.gazebo -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/urdf\n'}
+[2.876794] (lidar_robot) StdoutLine: {'line': b'creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/worlds\n'}
+[2.877355] (lidar_robot) StdoutLine: {'line': b'symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/worlds/obstacles.world -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/worlds\n'}
+[2.908880] (-) TimerEvent: {}
+[2.950956] (lidar_robot) CommandEnded: {'returncode': 0}
+[2.976152] (lidar_robot) JobEnded: {'identifier': 'lidar_robot', 'rc': 0}
+[2.977295] (-) EventReactorShutdown: {}

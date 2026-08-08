@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating lidar_robot.egg-info
+writing lidar_robot.egg-info/PKG-INFO
+writing dependency_links to lidar_robot.egg-info/dependency_links.txt
+writing entry points to lidar_robot.egg-info/entry_points.txt
+writing requirements to lidar_robot.egg-info/requires.txt
+writing top-level names to lidar_robot.egg-info/top_level.txt
+writing manifest file 'lidar_robot.egg-info/SOURCES.txt'
+reading manifest file 'lidar_robot.egg-info/SOURCES.txt'
+writing manifest file 'lidar_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gurshh/lidar_ws/src/install/lidar_robot/lib/python3.10/site-packages/lidar-robot.egg-link (link to .)
+Installing obstacle_avoidance script to /home/gurshh/lidar_ws/src/install/lidar_robot/lib/lidar_robot
+
+Installed /home/gurshh/lidar_ws/src/build/lidar_robot
+running symlink_data
+creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index
+creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index/resource_index
+creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index/resource_index/packages
+symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/resource/lidar_robot -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index/resource_index/packages
+symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/package.xml -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot
+creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/launch
+symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/launch/gazebo.launch.py -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/launch
+creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/urdf
+symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/urdf/robot.urdf.xacro -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/urdf
+symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/urdf/robot.gazebo -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/urdf
+creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/worlds
+symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/worlds/obstacles.world -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/worlds

@@ -1,0 +1,31 @@
+[1.983s] Invoking command in '/home/gurshh/lidar_ws/src/build/lidar_robot': PYTHONPATH=/home/gurshh/lidar_ws/src/build/lidar_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gurshh/lidar_ws/src/install/lidar_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gurshh/lidar_ws/src/build/lidar_robot/build --no-deps symlink_data
+[2.428s] running develop
+[2.788s] running egg_info
+[2.788s] creating lidar_robot.egg-info
+[2.809s] writing lidar_robot.egg-info/PKG-INFO
+[2.810s] writing dependency_links to lidar_robot.egg-info/dependency_links.txt
+[2.810s] writing entry points to lidar_robot.egg-info/entry_points.txt
+[2.810s] writing requirements to lidar_robot.egg-info/requires.txt
+[2.811s] writing top-level names to lidar_robot.egg-info/top_level.txt
+[2.811s] writing manifest file 'lidar_robot.egg-info/SOURCES.txt'
+[2.846s] reading manifest file 'lidar_robot.egg-info/SOURCES.txt'
+[2.847s] writing manifest file 'lidar_robot.egg-info/SOURCES.txt'
+[2.868s] running build_ext
+[2.869s] Creating /home/gurshh/lidar_ws/src/install/lidar_robot/lib/python3.10/site-packages/lidar-robot.egg-link (link to .)
+[2.869s] Installing obstacle_avoidance script to /home/gurshh/lidar_ws/src/install/lidar_robot/lib/lidar_robot
+[2.871s] 
+[2.871s] Installed /home/gurshh/lidar_ws/src/build/lidar_robot
+[2.871s] running symlink_data
+[2.871s] creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index
+[2.871s] creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index/resource_index
+[2.872s] creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index/resource_index/packages
+[2.872s] symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/resource/lidar_robot -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/ament_index/resource_index/packages
+[2.873s] symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/package.xml -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot
+[2.873s] creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/launch
+[2.874s] symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/launch/gazebo.launch.py -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/launch
+[2.874s] creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/urdf
+[2.875s] symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/urdf/robot.urdf.xacro -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/urdf
+[2.875s] symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/urdf/robot.gazebo -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/urdf
+[2.876s] creating /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/worlds
+[2.876s] symbolically linking /home/gurshh/lidar_ws/src/build/lidar_robot/worlds/obstacles.world -> /home/gurshh/lidar_ws/src/install/lidar_robot/share/lidar_robot/worlds
+[2.951s] Invoked command in '/home/gurshh/lidar_ws/src/build/lidar_robot' returned '0': PYTHONPATH=/home/gurshh/lidar_ws/src/build/lidar_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gurshh/lidar_ws/src/install/lidar_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gurshh/lidar_ws/src/build/lidar_robot/build --no-deps symlink_data
