@@ -27,7 +27,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'obstacle_avoidance = lidar_robot.obstacle_avoidance:main'
+            'obstacle_avoidance = lidar_robot.obstacle_avoidance:main',
+            'yolo_node = lidar_robot.yolo_node:main',  # <--- Added YOLO script
         ],
     },
 )
