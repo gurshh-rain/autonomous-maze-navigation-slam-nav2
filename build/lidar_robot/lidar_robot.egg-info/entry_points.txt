@@ -1,0 +1,5 @@
+[console_scripts]
+lidar_3d_visualizer = lidar_robot.lidar_3d_visualizer:main
+obstacle_avoidance = lidar_robot.obstacle_avoidance:main
+yolo_node = lidar_robot.yolo_node:main
+

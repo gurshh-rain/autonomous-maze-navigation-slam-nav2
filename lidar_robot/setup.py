@@ -17,6 +17,7 @@ setup(
         # Add config directory for SLAM params
         (os.path.join('share', package_name, 'config'), glob('config/*')),
         (os.path.join('share', package_name, 'maps'), glob('maps/*')),
+        (os.path.join('share', package_name, 'rviz'), glob('rviz/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -28,7 +29,8 @@ setup(
     entry_points={
         'console_scripts': [
             'obstacle_avoidance = lidar_robot.obstacle_avoidance:main',
-            'yolo_node = lidar_robot.yolo_node:main',  # <--- Added YOLO script
+            'yolo_node = lidar_robot.yolo_node:main',
+            'lidar_3d_visualizer = lidar_robot.lidar_3d_visualizer:main',
         ],
     },
 )
